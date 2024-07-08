@@ -1,6 +1,6 @@
 export const GetTimesNewsArticles = async ({searchKeyword}) => {
     try{
-        const response = await fetch(`http://localhost:8080/api/news/guardian-news?searchKeyword=${searchKeyword}&page=1`);
+        const response = await fetch(`http://localhost:8080/api/news/times-news?searchKeyword=${searchKeyword}&page=1`);
         if(!response.ok){
             throw new Error("Http error!");
         }
