@@ -1,0 +1,39 @@
+.Navbar{
+    background-color: #85C1E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.app-name{
+    margin: 0px 30px 0px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.search-input{
+    height: 30px;
+    width: 40%;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.nav-links{
+    list-style: none;
+    color: white;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
